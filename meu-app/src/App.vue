@@ -2,6 +2,8 @@
   <div id="app">
     <h1>Bem-vindo ao meu primeiro projeto!</h1>
     <UsuarioComponent/>
+
+    <h2>Teste estilo</h2>
   </div>
 </template>
 
