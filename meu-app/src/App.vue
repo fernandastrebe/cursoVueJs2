@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <h1>Bem-vindo ao meu primeiro projeto!</h1>
-    <UsuarioComponent/>
+    <button @click="entrar">Entrar</button>
+    <UsuarioComponent :nome="nome"/>
 
-    <h2>Teste estilo</h2>
   </div>
 </template>
 
@@ -20,7 +20,9 @@ import UsuarioComponent from './components/Usuario.vue'
       }
     },
     methods:{
-
+      entrar(){
+        this.nome = "Gabi";
+      }
     }
   }
 </script>
