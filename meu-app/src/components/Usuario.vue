@@ -7,7 +7,12 @@
 <script>
 export default {
     name: 'UsuarioComponent',
-    props:['nome']
+    props: {
+        nome:{
+            type: String,
+            required: true
+        }
+    }
 }
 </script>
 

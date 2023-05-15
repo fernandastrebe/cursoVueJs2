@@ -16,7 +16,7 @@ import UsuarioComponent from './components/Usuario.vue'
     },
     data(){
       return{
-        nome: 'Fernanda'
+        nome: 'Fernanda Strebe'
       }
     },
     methods:{
