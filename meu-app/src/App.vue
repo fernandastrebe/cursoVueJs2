@@ -27,6 +27,7 @@ import UsuarioComponent from './components/Usuario.vue'
   }
 </script>
 
+
 <style scoped>
 
 </style>
