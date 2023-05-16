@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <h1>Bem-vindo ao meu primeiro projeto!</h1>
+    <p>Componente pai: {{nome}}</p>
     <button @click="entrar">Entrar</button>
-    <UsuarioComponent :nome="nome"/>
+    <UsuarioComponent :nome="nome" @nomeCurso="nome = $event"/>
 
   </div>
 </template>
